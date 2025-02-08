@@ -1,10 +1,10 @@
 name: cool_alert_example
 description: A cool alert package usuage example app
-publish_to: 'none'
+publish_to: "none"
 version: 0.1.0
 
 environment:
-  sdk: '>=2.19.2 <3.0.0'
+  sdk: ">=2.19.2 <3.0.0"
 
 dependencies:
   cool_alert:
@@ -12,7 +12,7 @@ dependencies:
   cupertino_icons: ^1.0.5
   flutter:
     sdk: flutter
-  google_fonts: ^4.0.3
+  google_fonts: ^6.2.1
 
 dev_dependencies:
   flutter_test:
