@@ -1,5 +1,3 @@
-library cool_alert;
-
 import 'dart:async';
 
 import 'package:flutter/material.dart';
@@ -174,9 +172,6 @@ class CoolAlert {
 
           case CoolAlertAnimType.slideInRight:
             return Animate.slideInRight(child: child, animation: anim1);
-
-          default:
-            return child;
         }
       },
       transitionDuration: const Duration(milliseconds: 200),

@@ -11,9 +11,9 @@ class CoolAlertContainer extends StatelessWidget {
   final CoolAlertOptions options;
 
   const CoolAlertContainer({
-    Key? key,
+    super.key,
     required this.options,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -195,8 +195,6 @@ class CoolAlertContainer extends StatelessWidget {
       case CoolAlertType.custom:
         return null;
       case CoolAlertType.loading:
-        return null;
-      default:
         return null;
     }
   }
