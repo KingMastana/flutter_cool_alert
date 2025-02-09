@@ -76,10 +76,11 @@ packages:
   flare_flutter:
     dependency: "direct main"
     description:
-      name: flare_flutter
-      sha256: "99d63c60f00fac81249ce6410ee015d7b125c63d8278a30da81edf3317a1f6a0"
-      url: "https://pub.dev"
-    source: hosted
+      path: flare_flutter
+      ref: stable
+      resolved-ref: "03442ea577cf0f893ede0c847df9569f843ce9e6"
+      url: "https://github.com/KingMastana/Flare-Flutter.git"
+    source: git
     version: "3.0.2"
   flutter:
     dependency: "direct main"

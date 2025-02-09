@@ -3,12 +3,17 @@ description: A Flutter package to display animated alert dialogs such as
   success, error, warning, confirm or even a loading dialog.
 version: 2.0.1
 homepage: https://github.com/KingMastana/flutter_cool_alert.git
+publish_to: "none"
 
 environment:
   sdk: ">=3.4.1 <4.0.0"
 
 dependencies:
   flare_flutter:
+    git: 
+      url: https://github.com/KingMastana/Flare-Flutter.git
+      ref: stable
+      path: flare_flutter
   flutter:
     sdk: flutter
   lottie: ^3.3.1
